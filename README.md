@@ -14,3 +14,9 @@ Biggest dataset (250gigs)
 ⚠️ DeepFashion is not available for commercial use, [source](https://docs.google.com/forms/d/e/1FAIpQLSeIoGaFfCQILrtIZPykkr8q_h9qQ5BoTYbjvf95aXbid0v2Bw/viewform), using it for SlowFashion production is copyright infrigement and future audit WILL see it.
 ![alt text](assets/image-1.png)
 ![alt text](assets/image-2.png)
+
+# About the papers
+Deep Learning for Clothing Style Recognition Using YOLOv5
+This paper do Clothing Style Recognition with YOLOv5 and R-CNN, the metric used are average precison, mean average precison, recall, F1-score, model
+size, and frame per second. They Evaluate different architecture and want to be deployable on mobile device.
+
