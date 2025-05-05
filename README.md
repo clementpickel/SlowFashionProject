@@ -20,3 +20,22 @@ Deep Learning for Clothing Style Recognition Using YOLOv5
 This paper do Clothing Style Recognition with YOLOv5 and R-CNN, the metric used are average precison, mean average precison, recall, F1-score, model
 size, and frame per second. They Evaluate different architecture and want to be deployable on mobile device.
 
+DeepFashion: Powering Robust Clothes Recognition and Retrieval with Rich Annotations
+
+Deep Residual Learning for Image Recognition
+Best paper about residual neural network, should be better than VGG-16 but a lot deeper
+
+DeepFashion: Powering Robust Clothes Recognition and Retrieval with Rich Annotations
+presents the DeepFashion dataset, a large-scale dataset for benchmarking tasks in fashion recognition and retrieval. 
+Measure:
+1. Category and Attribute Prediction:
+Top-k accuracy (e.g., Top-1, Top-5): Measures whether the ground truth label is among the top-k predicted labels.
+Mean Average Precision (mAP): Especially for attribute prediction, to account for multi-label outputs.
+
+1. Landmark Detection:
+Normalized Error (NE): Distance between predicted and true landmark locations, normalized by image size.
+Detection Rate @ ε: Percentage of correctly predicted landmarks under a specific error threshold ε.
+
+1. Clothes Retrieval:
+Top-k retrieval accuracy: Measures whether the correct match is among the top-k retrieved items.
+Recall@k: Proportion of queries for which the correct item appears in the top-k results.
