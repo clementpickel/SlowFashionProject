@@ -4,6 +4,7 @@ __pycache__/
 *$py.class
 sources/data
 data/
+model/
 
 # C extensions
 *.so
@@ -175,3 +176,4 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+/sources/model
